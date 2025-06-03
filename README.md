@@ -5,7 +5,7 @@ Hello, we are team **Lost Kids** from National University of Singapore. This rep
 
 In the qualifiers hosted from 31st May to 1 June, we achieved 7th place in the Local category, and 17th place overall.
 
-![img](.\ranking_quals.png)
+![img](./ranking_quals.png)
 
 
 
