@@ -1,0 +1,21 @@
+use this to check info:
+./bkcrack/install/bkcrack -L files.zip
+
+encryption is ZipCrypto, vulnerable to known plaintext attack
+
+use first 32 bytes of a sample .exe file as plaintext to crack key
+
+./bkcrack/install/bkcrack -C files.zip -c notsus.exe -p plaintext
+
+bkcrack 1.7.1 - 2024-12-21
+[01:06:30] Z reduction using 25 bytes of known plaintext
+100.0 % (25 / 25)
+[01:06:30] Attack on 327554 Z values at index 6
+Keys: d1608c35 d11d350a 4bc3da9c
+80.4 % (263230 / 327554) 
+Found a solution. Stopping.
+You may resume the attack with the option: --continue-attack 263230
+[01:19:51] Keys
+d1608c35 d11d350a 4bc3da9c
+
+run the malware and it will change the flag.txt.yorm to the flag
