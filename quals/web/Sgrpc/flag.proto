@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package flag;
+
+import "google/protobuf/empty.proto";
+
+message FlagRequest {
+  fixed64 last_condition = 1;
+  string first_condition = 2;
+  bytes second_condition = 3;
+}
+
+message FlagReply {
+  string flag = 1;
+}
+
+message HelloReply {
+  string message = 1;
+}
+
+service Flag {
+  rpc Hello(google.protobuf.Empty) returns (HelloReply);
+  rpc GetFlag(FlagRequest) returns (FlagReply);
+}
