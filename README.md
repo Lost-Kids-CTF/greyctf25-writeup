@@ -1,12 +1,26 @@
-# greyctf25-writeup
+# Grey Cat The Flag 2025 - Writeups
 
-Hello, we are team **Lost Kids** from National University of Singapore. This repo contains writeups / solution dumps for interesting challenges that we solved in Grey Cat the Flag 2025.
+**Team:** Lost Kids  
+**University:** National University of Singapore  
 
-In the qualifiers hosted from 31st May to 1 June, we achieved 7th place in the Local category, and 17th place overall.
+This repository contains writeups and solution dumps for challenges we solved in Grey Cat the Flag 2025.
 
-![img](./ranking_quals.png)
+## Tournament Results
 
-## Links to challenge writeups
+### Qualifiers (31 May - 1 June 2025)
+
+- **Local Ranking:** 7th place
+- **Overall Ranking:** 17th place
+
+![Qualifiers Ranking](./ranking_quals.png)
+
+### Finals (28-29 June 2025)
+
+- **Final Ranking:** 11th place out of 20 teams
+
+![Finals Ranking](./ranking_final.png)
+
+## Challenge Writeups
 
 ### Qualifiers
 
@@ -47,6 +61,22 @@ In the qualifiers hosted from 31st May to 1 June, we achieved 7th place in the L
 #### Web
 
 - [Sgrpc](quals/web/sgrpc/)
+
+### Finals
+
+#### Blockchain
+
+#### Crypto
+
+#### Hardware
+
+#### Misc
+
+#### Pwn
+
+#### Rev
+
+#### Web
 
 ### Relevant websites
 
