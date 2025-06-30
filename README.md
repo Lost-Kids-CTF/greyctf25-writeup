@@ -66,15 +66,20 @@ This repository contains writeups and solution dumps for challenges we solved in
 
 #### Blockchain
 
+- [Locker](final/blockchain/Locker/)
+- [Race](final/blockchain/Race/)
+
 #### Crypto
+
+- [Safe Xor](final/crypto/Safe%20Xor/)
 
 #### Hardware
 
+- [Hornet Revenge](final/hardware/Hornet%20Revenge/)
+
 #### Misc
 
-#### Pwn
-
-#### Rev
+- [Authlab](final/misc/Authlab/)
 
 #### Web
 
