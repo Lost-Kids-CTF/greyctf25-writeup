@@ -1,0 +1,21 @@
+Safe Xor
+600
+ariana
+
+I added type-checking to xor, so my LFSR should be super secure now!
+
+
+> Truth Table of Safe Xor:
+| a     | b     | safeXor(a, b) |
+| ----- | ----- | ------------- |
+| None  | None  | None          |
+| None  | False | False         |
+| None  | True  | True          |
+| False | None  | False         |
+| False | False | True          |
+| False | True  | None          |
+| True  | None  | True          |
+| True  | False | None          |
+| True  | True  | False         |
+
+Flag: grey{!safe,_!xor,_wow..,..,.,}
